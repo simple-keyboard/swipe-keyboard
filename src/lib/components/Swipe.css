@@ -1,0 +1,20 @@
+.keyboardContainer {
+  position: relative;
+}
+
+.keyboardContainer .swipeCanvasElement {
+  position:absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 999;
+  user-select: none;
+}
+
+.simple-keyboard.hg-theme-default.swipe-keyboard .hg-button {
+  height: 60px;
+}
+
+.simple-keyboard.swipe-keyboard .hg-button span {
+  pointer-events: none;
+}
