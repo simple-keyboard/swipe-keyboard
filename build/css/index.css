@@ -1,6 +1,6 @@
 /*!
  * 
- *   swipe-keyboard v1.0.1
+ *   swipe-keyboard v1.1.1
  *   https://github.com/hodgef/swipe-keyboard
  * 
  *   Copyright (c) Francisco Hodge (https://github.com/hodgef)
@@ -9,5 +9,5 @@
  *   LICENSE file in the root directory of this source tree.
  *   
  */
-.keyboardContainer{position:relative}.keyboardContainer .swipeCanvasElement{position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;z-index:999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.simple-keyboard.hg-theme-default.swipe-keyboard .hg-button{height:60px}.simple-keyboard.swipe-keyboard .hg-button span{pointer-events:none}
+.keyboardContainer{position:relative}.keyboardContainer .swipeCanvasElement{position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;z-index:999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.simple-keyboard.hg-theme-default.module-simplekeyboardswipe .hg-button{height:60px}.simple-keyboard.module-simplekeyboardswipe .hg-button span{pointer-events:none}
 /*# sourceMappingURL=index.css.map*/

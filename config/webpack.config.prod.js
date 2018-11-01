@@ -260,6 +260,8 @@ module.exports = {
       },
       mangle: {
         safari10: true,
+        except: ['$super', '$', 'exports', 'require', 'angular'],
+        keep_fnames: true
       },
       output: {
         comments: false,
