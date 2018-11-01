@@ -1,4 +1,4 @@
-<a href="https://github.com/hodgef/simple-keyboard" title="simple-keyboard repository"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simplekeyboard-avatar.png" width="50" align="left"></a> <h1>swipe-keyboard</h1>
+<h1><a href="https://github.com/hodgef/simple-keyboard" title="simple-keyboard repository"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simplekeyboard-avatar.png" width="50" align="left"></a> swipe-keyboard</h1>
 
   <a href="https://simple-keyboard-swipe-demo.glitch.me/" title="simple-keyboard repository" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/swipe-keyboard.gif" width="100%"></a>
   <blockquote>Swipe to type module for simple-keyboard (non-predictive)</blockquote>
