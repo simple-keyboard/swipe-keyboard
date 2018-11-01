@@ -1,15 +1,9 @@
-import 'simple-keyboard';
-import KeyboardSwipe from '../lib/components/Swipe';
+import Keyboard from 'simple-keyboard';
 import '../lib/components/Swipe.css';
+import swipe from '../lib/components/Swipe';
 
 import 'simple-keyboard/build/css/index.css';
 import './css/App.css';
-
-/**
- * Available layouts
- * https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts
- */
-//import layout from '../lib/layouts/japanese';
 
 class App {
   constructor(){
@@ -19,10 +13,13 @@ class App {
   }
 
   onDOMLoaded = async () => {
-    this.keyboard = new KeyboardSwipe({
+    this.keyboard = new Keyboard({
       onChange: input => this.onChange(input),
       onKeyPress: button => this.onKeyPress(button),
-      newLineOnEnter: true
+      newLineOnEnter: true,
+      modules: [
+        swipe
+      ]
     });
 
     /**

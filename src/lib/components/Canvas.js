@@ -18,7 +18,6 @@ class Canvas {
   }
 
   draw = (prevX, prevY, currX, currY) => {
-    //this.ctx.fillRect(this.currX - 2, this.currY - 2, 5, 5);
     this.ctx.beginPath();
     this.ctx.moveTo(prevX, prevY);
     this.ctx.lineTo(currX, currY);

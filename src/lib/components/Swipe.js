@@ -1,34 +1,17 @@
-import SimpleKeyboard from "simple-keyboard";
+import './Swipe.css';
 import Canvas from '../components/Canvas';
 
-class SimpleKeyboardSwipe extends SimpleKeyboard {
-  constructor(...options){
-    super(...options);
-
-    // Apply theme
-    this.setOptions({
-      theme: this.options.theme + " swipe-keyboard"
-    });
-
-    this._moduleInit();
-    delete this._moduleInit;
-
-    this.modules.swipe.canvasHandler = new Canvas();
-    this.modules.swipe.initVars();
-    this.modules.swipe.canvasHandler.init(this.keyboardDOM, this.modules.swipe.canvasW, this.modules.swipe.canvasH);
-    this.modules.swipe.initEvents();
-  }
-
-  _moduleInit = () => {
-    this.registerModule(
+class SimpleKeyboardSwipe {
+  init = (keyboard) => {
+    keyboard.registerModule(
       "swipe",
       (module) => {
         module.initVars = () => {
-          let keyboardDOMClass = this.keyboardDOMClass;
+          let keyboardDOMClass = keyboard.keyboardDOMClass;
       
-          this.keyboardDOM = document.querySelector(`.${keyboardDOMClass}`);
-          module.canvasW = this.keyboardDOM.offsetWidth;
-          module.canvasH = this.keyboardDOM.offsetHeight;
+          keyboard.keyboardDOM = document.querySelector(`.${keyboardDOMClass}`);
+          module.canvasW = keyboard.keyboardDOM.offsetWidth;
+          module.canvasH = keyboard.keyboardDOM.offsetHeight;
           module.isMouseClicked = false
           module.isMouseInCanvas = false
           module.prevX = 0;
@@ -75,7 +58,6 @@ class SimpleKeyboardSwipe extends SimpleKeyboard {
           module.isMouseHold = true;
           module.holdTimeout = setTimeout(function() {
             if(module.isMouseHold){
-              console.log("hold");
               module.handleInteraction(e);
             }
             clearTimeout(module.holdTimeout);
@@ -144,10 +126,10 @@ class SimpleKeyboardSwipe extends SimpleKeyboard {
           module.currY = e.clientY - rect.top
 
 
-          module.getMouseDirection(e, module.handleInteraction);
+          module.getMouseDirection(e);
         }
 
-        module.getMouseDirection = (e, handleInteraction) => {
+        module.getMouseDirection = (e) => {
           let stagingX;
           let stagingY;
       
@@ -214,7 +196,6 @@ class SimpleKeyboardSwipe extends SimpleKeyboard {
                 )
               ){
                 module.holdInteractionTimeout = setTimeout(() => {
-                  console.log("hold!");
                   element.onclick();
                   module.handleInteraction(e);
                 }, 100);
@@ -288,6 +269,10 @@ class SimpleKeyboardSwipe extends SimpleKeyboard {
           event.preventDefault();
         }
 
+        module.canvasHandler = new Canvas();
+        module.initVars();
+        module.canvasHandler.init(keyboard.keyboardDOM, module.canvasW, module.canvasH);
+        module.initEvents();
       }
     )
   }

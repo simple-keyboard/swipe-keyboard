@@ -11,10 +11,10 @@
   user-select: none;
 }
 
-.simple-keyboard.hg-theme-default.swipe-keyboard .hg-button {
+.simple-keyboard.hg-theme-default.module-simplekeyboardswipe .hg-button {
   height: 60px;
 }
 
-.simple-keyboard.swipe-keyboard .hg-button span {
+.simple-keyboard.module-simplekeyboardswipe .hg-button span {
   pointer-events: none;
 }
