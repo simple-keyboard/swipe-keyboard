@@ -1,6 +1,4 @@
-import 'simple-keyboard';
-import KeyboardSwipe from './Swipe';
-
+import Keyboard from 'simple-keyboard';
 
 it('Keyboard renders without crashing', () => {
   const div = document.createElement('div');
@@ -8,7 +6,9 @@ it('Keyboard renders without crashing', () => {
   div.className += "simple-keyboard";
   document.body.appendChild(div);
 
-  let keyboard = new KeyboardSwipe({
+  console.log(document.body.innerHTML);
+
+  let keyboard = new Keyboard({
     debug: true,
     onChange: input => input,
     onKeyPress: button => button,
