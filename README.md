@@ -2,7 +2,9 @@
 
 <a href="https://simple-keyboard-swipe-demo.glitch.me/" title="See demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/swipe-keyboard.gif" width="100%"></a>
 <blockquote>Swipe to type for simple-keyboard (non-predictive)</blockquote>
-  
+
+[![Build Status](https://travis-ci.org/hodgef/swipe-keyboard.svg?branch=master)](https://travis-ci.org/hodgef/swipe-keyboard)
+
 ## Installation
 
 ### npm
