@@ -6,6 +6,15 @@ class SimpleKeyboardSwipe {
     keyboard.registerModule(
       "swipe",
       (module) => {
+        module.Canvas = Canvas;
+
+        module.init = () => {
+          module.canvasHandler = new module.Canvas();
+          module.initVars();
+          module.canvasHandler.init(keyboard.keyboardDOM, module.canvasW, module.canvasH);
+          module.initEvents();
+        }
+
         module.initVars = () => {
           let keyboardDOMClass = keyboard.keyboardDOMClass;
       
@@ -269,10 +278,7 @@ class SimpleKeyboardSwipe {
           event.preventDefault();
         }
 
-        module.canvasHandler = new Canvas();
-        module.initVars();
-        module.canvasHandler.init(keyboard.keyboardDOM, module.canvasW, module.canvasH);
-        module.initEvents();
+        module.init();
       }
     )
   }
