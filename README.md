@@ -10,6 +10,4 @@ Check out the [Getting Started](https://franciscohodge.com/projects/simple-keybo
 
 ## ⚡️ Options and Customization
 
-To fully customize your virtual keyboard, check out the main simple-keyboard repository:
-
-<a href="https://github.com/hodgef/simple-keyboard" title="simple-keyboard repository"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simplekeyboard-banner3x.png" align="center"></a>
+To fully customize your virtual keyboard, check out the main [simple-keyboard repository](https://github.com/hodgef/simple-keyboard).
