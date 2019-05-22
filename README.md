@@ -1,8 +1,10 @@
-[![Build Status](https://travis-ci.org/hodgef/swipe-keyboard.svg?branch=master)](https://travis-ci.org/hodgef/swipe-keyboard)
-
 <a href="https://github.com/hodgef/simple-keyboard" title="simple-keyboard repository"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/swipe-keyboardX4.png" width="100%"></a>
 
 <a href="https://simple-keyboard-swipe-demo.glitch.me/" title="See demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/swipe-keyboard.gif" width="100%"></a>
+
+----
+
+[![Build Status](https://travis-ci.org/hodgef/swipe-keyboard.svg?branch=master)](https://travis-ci.org/hodgef/swipe-keyboard)
 
 ## 📦 Installation & Usage
 
