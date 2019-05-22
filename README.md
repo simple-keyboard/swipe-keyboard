@@ -5,6 +5,10 @@
 
 [![Build Status](https://travis-ci.org/hodgef/swipe-keyboard.svg?branch=master)](https://travis-ci.org/hodgef/swipe-keyboard)
 
+## Notice
+
+> ### This module is in *Experimental* state. Contributions are welcome !
+
 ## Installation
 
 ### npm
