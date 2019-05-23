@@ -4,10 +4,14 @@
 
 [![Build Status](https://travis-ci.org/hodgef/swipe-keyboard.svg?branch=master)](https://travis-ci.org/hodgef/swipe-keyboard)
 
+## ✨ Demo
+
+[Swipe-keyboard module demo](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/module-swipe-keyboard/)
+
 ## 📦 Installation & Usage
 
 Check out the [Getting Started](https://franciscohodge.com/projects/simple-keyboard/modules/swipe-keyboard/) docs to begin.
 
-## ⚡️ Options and Customization
+## 📃 Options and Customization
 
 To fully customize your virtual keyboard, check out the main [simple-keyboard repository](https://github.com/hodgef/simple-keyboard).
