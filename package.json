@@ -47,6 +47,8 @@
     "css-loader": "^3.0.0",
     "file-loader": "^4.0.0",
     "jest": "^24.8.0",
+    "jest-canvas-mock": "^2.1.0",
+    "jest-environment-jsdom-fourteen": "^0.1.0",
     "prettier": "^1.18.2",
     "prettier-webpack-plugin": "^1.2.0",
     "simple-keyboard": "^2.23.1",
@@ -57,6 +59,8 @@
   },
   "dependencies": {},
   "jest": {
+    "testEnvironment": "jest-environment-jsdom-fourteen",
+    "setupFiles": ["jest-canvas-mock"],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/scripts/testMock.js",
       "\\.(css|less)$": "<rootDir>/scripts/testMock.js"

@@ -2,10 +2,14 @@ import Keyboard from 'simple-keyboard';
 import SimpleKeyboardSwipe from '../src/index';
 
 test('Runs without crashing', () => {
-  const div = document.createElement('div');
-  
-  div.className = "simple-keyboard";
-  document.body.appendChild(div);
+  const containerDiv = document.createElement('div');
+  containerDiv.className = "keyboardContainer";
+
+  const keyboardDiv = document.createElement('div');
+  keyboardDiv.className = "simple-keyboard";
+
+  containerDiv.appendChild(keyboardDiv);
+  document.body.appendChild(containerDiv);
 
   new Keyboard({
     debug: true,
