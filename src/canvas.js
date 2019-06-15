@@ -8,14 +8,14 @@ class Canvas {
     canvasElem.width = canvasW;
     canvasElem.height = canvasH;
 
-    elem.insertAdjacentElement('beforebegin', canvasElem);
+    elem.insertAdjacentElement("beforebegin", canvasElem);
     this.canvas = document.querySelector(`.swipeCanvasElement`);
     this.ctx = this.canvas.getContext("2d");
-  }
+  };
 
   clear = () => {
     this.ctx.clearRect(0, 0, this.canvasW, this.canvasH);
-  }
+  };
 
   draw = (prevX, prevY, currX, currY) => {
     this.ctx.beginPath();
@@ -25,7 +25,7 @@ class Canvas {
     this.ctx.lineWidth = 3;
     this.ctx.stroke();
     this.ctx.closePath();
-  }
+  };
 }
 
 export default Canvas;

@@ -1,8 +1,10 @@
 language: node_js
 node_js:
- - "node"
+ - node
+install:
+  - npm install
 script:
- - npm run test
+- npm run test
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
