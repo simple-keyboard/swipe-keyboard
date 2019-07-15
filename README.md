@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/hodgef/swipe-keyboard.svg?branch=master)](https://travis-ci.org/hodgef/swipe-keyboard)
 
+> **Have an issue or question? [Please post it in the simple-keyboard repository.](https://github.com/hodgef/simple-keyboard/issues)**
+
 ## ✨ Demo
 
 [Swipe-keyboard module demo](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/module-swipe-keyboard/)
