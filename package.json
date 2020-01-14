@@ -38,7 +38,7 @@
     "keyboard-layout"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.8.0",
+    "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.0",
     "@babel/plugin-proposal-class-properties": "^7.8.0",
     "@babel/polyfill": "^7.8.0",
