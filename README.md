@@ -10,7 +10,7 @@
      <img alt="Publish Status" src="https://github.com/hodgef/swipe-keyboard/workflows/Publish/badge.svg?color=green" />
   </a>
 
-> **Have an issue or question? [Please post it in the simple-keyboard repository.](https://github.com/hodgef/simple-keyboard/issues)**
+<blockquote>**Have an issue or question? [Please post it in the simple-keyboard repository.](https://github.com/hodgef/simple-keyboard/issues)**</blockquote>
 
 ## ✨ Demo
 
