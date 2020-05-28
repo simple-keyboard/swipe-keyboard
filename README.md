@@ -1,6 +1,6 @@
-<a href="https://github.com/hodgef/simple-keyboard" title="simple-keyboard repository"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/swipe-keyboardX4.png" width="100%"></a>
+<a href="https://github.com/hodgef/simple-keyboard" title="simple-keyboard repository"><img src="https://i.imgur.com/eA01ij4.png" width="100%"></a>
 
-<a href="https://franciscohodge.com/projects/simple-keyboard/demo-showcase/module-swipe-keyboard/" title="See demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/swipe-keyboard.gif" width="700"></a>
+<a href="https://hodgef.com/simple-keyboard/modules/swipe-keyboard/" title="See demo" target="_blank"><img src="https://i.imgur.com/deTPKsx.gif" width="700"></a>
 
 <blockquote>Swipe typing module for simple-keyboard</blockquote>
 
@@ -14,11 +14,11 @@
 
 ## ✨ Demo
 
-[Swipe-keyboard module demo](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/module-swipe-keyboard/)
+[Swipe-keyboard module demo](https://hodgef.com/simple-keyboard/editor/?d=simple-keyboard/simple-keyboard-swipe-keyboard-npm/tree/master)
 
 ## 📦 Installation & Usage
 
-Check out the [Getting Started](https://franciscohodge.com/projects/simple-keyboard/modules/swipe-keyboard/) docs to begin.
+Check out the [Getting Started](https://hodgef.com/simple-keyboard/modules/swipe-keyboard/) docs to begin.
 
 ## 📃 Options and Customization
 
