@@ -55,7 +55,7 @@
     "simple-keyboard": "^2.29.72",
     "style-loader": "^1.1.4",
     "url-loader": "^4.1.0",
-    "webpack": "^4.42.1",
+    "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {},
