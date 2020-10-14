@@ -45,7 +45,7 @@
     "@babel/preset-env": "^7.11.5",
     "babel-loader": "^8.1.0",
     "babel-preset-minify": "^0.5.0",
-    "css-loader": "^4.3.0",
+    "css-loader": "^5.0.0",
     "file-loader": "^6.1.1",
     "jest": "^26.5.3",
     "jest-canvas-mock": "^2.3.0",
