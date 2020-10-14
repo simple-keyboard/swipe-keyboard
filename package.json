@@ -52,7 +52,7 @@
     "jest-environment-jsdom-fourteen": "^1.0.1",
     "prettier": "^1.19.1",
     "prettier-webpack-plugin": "^1.2.0",
-    "simple-keyboard": "2.30.44",
+    "simple-keyboard": "2.30.45",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
     "webpack": "^4.44.2",
