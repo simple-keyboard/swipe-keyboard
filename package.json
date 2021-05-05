@@ -1,6 +1,6 @@
 {
   "name": "swipe-keyboard",
-  "version": "2.2.182",
+  "version": "2.2.183",
   "description": "Swipe keyboard module for simple-keyboard",
   "main": "build/index.js",
   "scripts": {
