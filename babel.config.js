@@ -1,11 +1,12 @@
 module.exports = {
   presets: [
     ["@babel/env"],
-    ["minify", {
-      "keepFnName": true
-    }]
+    [
+      "minify",
+      {
+        keepFnName: true
+      }
+    ]
   ],
-  plugins: [
-    ["@babel/plugin-proposal-class-properties"]
-  ]
+  plugins: [["@babel/plugin-proposal-class-properties"]]
 };
