@@ -1,6 +1,6 @@
 /*!
  * 
- *   swipe-keyboard v2.2.364
+ *   swipe-keyboard v2.2.365
  *   https://github.com/hodgef/swipe-keyboard
  * 
  *   Copyright (c) Francisco Hodge (https://github.com/hodgef)
